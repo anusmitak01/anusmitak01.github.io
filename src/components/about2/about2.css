@@ -1,0 +1,40 @@
+.about_container{
+    display: flex;
+    grid-template-columns: 35% 50%;
+}
+
+p{
+    justify-content: center;
+    margin: auto;
+    margin-left: 10rem;
+    margin-right: 9rem;
+
+}
+
+.about_image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-right: -35%;
+}
+
+.about_image img{
+    display: block;
+    width: 45%;
+    object-fit: cover;
+    padding:2rem 1rem 3rem 2rem;
+    border-radius: 2rem;
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+
+.about_content{
+    padding: 5%;
+    display: flex;
+    gap: 2rem;
+    line-height: 3rem;
+}
+
+strong, p{
+    color: var(--color-light);
+}
+

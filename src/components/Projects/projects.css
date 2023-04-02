@@ -1,0 +1,47 @@
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(3,28rem);
+    gap: 2rem;
+    padding: 1.2rem;
+    
+}
+
+.project_item{
+    padding: 1rem 1rem 5rem 1rem;
+    /* border-radius: 1rem;
+    border: 1px solid transparent;
+    background: var(--color-bg-variant); */
+    
+    user-select: none;
+    text-align: center;
+}
+
+.project_item:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    
+}
+.project_image{
+    border-radius: 1.2rem;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+
+h5{
+    font-weight: 500;
+    
+}
+
+h1,h3{
+    text-align: center;
+}
+img{
+    border-radius: 1rem;
+    display: block;
+    width: 60%;
+    object-fit: cover;
+    align-items: center;
+    margin: auto;
+}
+  
